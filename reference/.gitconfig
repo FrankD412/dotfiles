@@ -1,0 +1,19 @@
+[user]
+	name = Frank Di Natale
+	email = frank.dinatale1988@gmail.com
+[color]
+	ui = true
+[core]
+	excludesfile = /home/frank/.gitignore
+	editor = vim
+	preloadIndex = true
+	autocrlf = input
+[alias]
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	root = rev-parse --show-toplevel
+[credential]
+	helper = cache --timeout=43200
+[push]
+	default = simple
+[transfer]
+	fsckObjects = true
