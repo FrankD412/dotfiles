@@ -32,5 +32,6 @@ chmod g-w,o-w $ZSH_CUSTOM/plugins/zsh-autosuggestions
 cp ./reference/agnoster.zsh-theme ./oh-my-zsh/themes/agnoster_frank.zsh-theme
 
 # Copy global configurations
-cp ./.zshrc $HOME/.zshrc
+cp ./reference/.zshrc $HOME/.zshrc
 cp ./reference/.gitignore $HOME/
+cp ./reference/.gitconfig $HOME/
